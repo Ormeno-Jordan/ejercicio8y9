@@ -1,0 +1,57 @@
+* {
+    padding: 3px;
+    margin: 3px;
+    box-sizing: border-box;
+    background-color: rgb(161, 161, 161);
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 75vh;
+    justify-content: space-evenly;
+}
+
+input, option {
+    background-color: rgb(179, 255, 230);
+}
+
+.cajaizquierda {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid black;
+    border-radius: 1em;
+}
+
+.cajaderecha {
+    border: 1px solid black;
+    border-radius: 1em;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+div {
+    width: 35%;
+}
+
+.cajasexo {
+    width: 100%;
+}
+
+form {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
